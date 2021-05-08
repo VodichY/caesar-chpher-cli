@@ -1,0 +1,23 @@
+{
+  "name": "cipher-cli-tool",
+  "version": "1.0.0",
+  "description": "\"node js encryption  application\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "YVodzhich",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^17.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VodichY/caesar-chpher-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/VodichY/caesar-chpher-cli/issues"
+  },
+  "homepage": "https://github.com/VodichY/caesar-chpher-cli#readme",
+  "devDependencies": {}
+}

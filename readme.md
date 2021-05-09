@@ -2,12 +2,12 @@
 
 **Usage example:**
 <hr>
-<li>$ node my_caesar_cli -a encode -s 7 -i "./input.txt" -o "./output.txt"
-<li>$ node my_caesar_cli --action encode --shift 7 --input plain.txt --output encoded.txt
-<li>$ node my_caesar_cli --action decode --shift 7 --input decoded.txt --output plain.txt
-<li>$ node my_caesar_cli --action decode --shift 7 --input decoded.txt
-<li>$ node my_caesar_cli --action encode --shift 7 --output plain.txt
-<li>$ node my_caesar_cli --action decode --shift 7
+<li>$ node app -a encode -s 7 -i "./input.txt" -o "./output.txt"
+<li>$ node app --action encode --shift 7 --input plain.txt --output encoded.txt
+<li>$ node app --action decode --shift 7 --input decoded.txt --output plain.txt
+<li>$ node app --action decode --shift 7 --input decoded.txt
+<li>$ node app --action encode --shift 7 --output plain.txt
+<li>$ node app --action decode --shift 7
 <hr>
  
 **Required parameters:**

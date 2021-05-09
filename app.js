@@ -1,4 +1,5 @@
 const yargs = require('yargs')
+const checkConditions = require('./js/checkConditions');
 
 programOptions = yargs
   .option('--shift', {
@@ -34,7 +35,10 @@ programOptions = yargs
     alias: '-h',
     hidden: true
   })
+  .showHelpOnFail(false, 'Specify --help for available options')
   .argv;
+
+  checkConditions.checkParams(programOptions);
 
   
 
